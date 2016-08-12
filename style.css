@@ -1,0 +1,9 @@
+body {
+	align: center;
+}
+
+table {
+	border: 5px;
+	border-style: double;
+	border-color: blue;
+}
