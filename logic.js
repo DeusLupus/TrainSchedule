@@ -17,13 +17,12 @@ $(document).ready(function(){
 	var freq = 0;
 
 	//create on click for button to submit new train
-	$('.btn').on(click, function (){
+	$('#submit').on('click', function(){
 		//grab user input
 		name = $('#name').val().trim();
 		dest = $('#dest').val().trim();
 		first = $('#first').val().trim();
 		freq = $('#freq').val().trim();
-	})
 
 	//temp object for train data
 	var newTrain = {
@@ -50,4 +49,5 @@ $(document).ready(function(){
 	//append values to train schedule
 	//attempt update/remove
 	//try to implement user authentication
+	})
 })
